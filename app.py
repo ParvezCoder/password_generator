@@ -1,11 +1,11 @@
 import streamlit as st
 import re
 st.set_page_config(page_title="Password Checker")
-st.title("Password Strength Checker")
+st.title("🔐 Password Strength Checker")
 st.markdown(""""
-### Welcome to the ultimated Password Strength Checker 
+### 👍 Welcome to the ultimated Password Strength Checker 👋
  use to simple tool sto check the Strength of your password
- and get suggetion""")
+ and get suggetion 😊""")
 password = st.text_input("Enter your password", type="password")
 
 feedback =[]
